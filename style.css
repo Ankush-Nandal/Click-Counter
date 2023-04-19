@@ -1,0 +1,52 @@
+body {
+    background-image: url("https://cdn.wallpapersafari.com/33/40/ys5mwk.jpg");
+    opacity: 0.8;
+    background-size: cover;
+}
+
+#box {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    cursor: pointer;
+    border: 2px solid red;
+    margin: 100px auto;
+}
+
+#box:hover {
+    box-shadow: 0px 0px 30px cyan;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: dotted;
+    border: 2px dotted red;
+    border-radius: 100%;
+    padding: 6px 0px 6px 0px;
+    margin: 0px 450px 0px 450px;
+    background-color: aqua;
+}
+
+#click-count {
+    color: red;
+}
+
+#btn1 {
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 90%;
+    padding: 6px;
+    height: 70px;
+    width: 70px;
+}
+
+#btn1:hover {
+    box-shadow: 0px 0px 20px cyan;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    background-color: red;
+}
